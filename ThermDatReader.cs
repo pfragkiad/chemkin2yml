@@ -175,7 +175,7 @@ THERMO ALL
    200.000  1000.000  6000.000
 //Temperature ranges for 2 sets of coefficients:   3F10.0     1 to 30
         */
-        decimal lowTemperature = decimal.Parse(line[0..10],EN;
+        decimal lowTemperature = decimal.Parse(line[0..10],EN);
         decimal commonTemperature = decimal.Parse(line[11..20],EN);
         decimal highTemperature = decimal.Parse(line[21..30],EN);
 
